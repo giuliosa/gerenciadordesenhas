@@ -5,4 +5,48 @@
     <string name="entrar">Entrar</string>
     <string name="erro_validacao">Usuário ou senha incorreta</string>
     <string name="cadastrar">Cadastrar</string>
+    <string name="nova_senha">Nova Senha</string>
+    <string name="app">App</string>
+    <string name="login">Login</string>
+    <string name="novo_login">Cadastrar Login e Senha</string>
+    <string-array name="apps">
+        <item>Aim</item>
+        <item>Apple app</item>
+        <item>Bebo</item>
+        <item>Behance</item>
+        <item>Blogger</item>
+        <item>Carbonmade</item>
+        <item>Delicous</item>
+        <item>Deviantart</item>
+        <item>Digg</item>
+        <item>Dribble</item>
+        <item>Etsy</item>
+        <item>Evernote</item>
+        <item>Facebook</item>
+        <item>Fastfm</item>
+        <item>Flickr</item>
+        <item>For Square</item>
+        <item>Forrst</item>
+        <item>Forstorm</item>
+        <item>Github</item>
+        <item>Google +</item>
+        <item>Instagram</item>
+        <item>Linkedin</item>
+        <item>Mail</item>
+        <item>Myspace</item>
+        <item>Orkut</item>
+        <item>Path</item>
+        <item>Pinterest</item>
+        <item>Quora</item>
+        <item>Reddit</item>
+        <item>Rss</item>
+        <item>Soundcloud</item>
+        <item>Stumble upom</item>
+        <item>Technorati</item>
+        <item>Timblr</item>
+        <item>Twitter</item>
+        <item>Vimeo</item>
+        <item>Wordpress</item>
+        <item>Youtube</item>
+    </string-array>
 </resources>

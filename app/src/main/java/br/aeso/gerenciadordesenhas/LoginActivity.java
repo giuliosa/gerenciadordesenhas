@@ -1,6 +1,7 @@
 package br.aeso.gerenciadordesenhas;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -30,7 +31,9 @@ public class LoginActivity extends Activity{
         if ("leitor".equals(usuarioInformado) && "123".equals(senhaInformada)){
             /*Implementar a Activity que será chamada
              caso o login e senha estejam corretos*/
-            String teste = "entrou";
+            Intent intent = new Intent(this, SenhaActivity.class);
+            startActivity(intent);
+            String teste = "Seja bem-vindo!";
             Toast toast = Toast.makeText(this, teste, Toast.LENGTH_SHORT);
 
             toast.show();
@@ -42,7 +45,8 @@ public class LoginActivity extends Activity{
         }
     }
 
-    public void cadastrarOnclick(View view){
-
+    public void cadastrarOnClick(View view) {
+        Intent intent = new Intent(this, CadastroActivity.class);
+        startActivity(intent);
     }
 }
