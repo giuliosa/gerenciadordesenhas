@@ -33,12 +33,28 @@
         android:id="@+id/senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"/>
+        android:inputType="numberPassword"/>
 
-    <Button
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:onClick="entrarOnClick"
-        android:text="@string/entrar"/>
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1,2">
+        <TableRow>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:onClick="cadastrarOnClick"
+                android:text="@string/cadastrar"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:onClick="entrarOnClick"
+                android:text="@string/entrar"/>
+        </TableRow>
+    </TableLayout>
+
+
 </LinearLayout>

@@ -3,4 +3,6 @@
     <string name="usuario">Usuário</string>
     <string name="senha">Senha</string>
     <string name="entrar">Entrar</string>
+    <string name="erro_validacao">Usuário ou senha incorreta</string>
+    <string name="cadastrar">Cadastrar</string>
 </resources>
