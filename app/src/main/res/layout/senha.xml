@@ -50,7 +50,7 @@
                 android:text="@string/senha"/>
 
             <EditText
-                android:id="@+id/senha_login"
+                android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:inputType="text"/>

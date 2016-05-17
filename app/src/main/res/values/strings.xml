@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gerenciador de Senhas</string>
+    <string name="app_name">Passworder</string>
     <string name="usuario">Usuário</string>
     <string name="senha">Senha</string>
     <string name="entrar">Entrar</string>
@@ -9,6 +9,9 @@
     <string name="app">App</string>
     <string name="login">Login</string>
     <string name="novo_login">Cadastrar Login e Senha</string>
+    <string name="login_sucesso">Entrou com sucesso!</string>
+    <string name="bem_vindo">Seja bem-vindo!</string>
+    <string name="senha_sucesso">Senha cadastrada com sucesso!</string>
     <string-array name="apps">
         <item>Aim</item>
         <item>Apple app</item>
@@ -48,5 +51,6 @@
         <item>Vimeo</item>
         <item>Wordpress</item>
         <item>Youtube</item>
+        <item>Outros</item>
     </string-array>
 </resources>
